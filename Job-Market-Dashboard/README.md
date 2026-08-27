@@ -14,6 +14,9 @@ I collected job listings from LinkedIn, Indeed, and company career sites, then o
 - PivotCharts
 - Manual data collection
 - Data cleaning and categorization
+- Power BI
+- DAX measures
+- Power Query
 
 ## Dataset
 
@@ -78,7 +81,14 @@ The project tracked whether each job listing mentioned or required the following
 - Ticketing systems
 - Cloud tools
 
+
 These skills were tracked using binary indicators, where `1` means the skill appeared in the listing and `0` means it did not.
+
+## Power BI Dashboard
+
+I recreated the original Excel dashboard in Power BI to make the project more interactive and portfolio-ready. The Power BI version includes slicers for metro area, role group, work arrangement, salary availability, and clearance/citizenship barriers.
+
+![Power BI Dashboard Overview](images/powerbi_dashboard_overview.png)
 
 ## Project Files
 
@@ -92,14 +102,19 @@ Job-Market-Dashboard/
 ├── dashboard/
 │   └── Job Dashboard Spreadsheet.xlsx
 │
+├── powerbi/
+│   └── Job_Market_Dashboard.pbix
+│
 ├── report/
 │   └── Job Dashboard Report.pdf
 │
 ├── images/
 │   ├── dashboard_overview.png
+│   ├── powerbi_dashboard_overview.png
 │   ├── role_group_by_metro.png
 │   ├── skill_demand_by_metro.png
 │   ├── clearance_citizenship_barriers.png
 │   └── average_listed_salary_by_metro.png
 │
 └── README.md
+
